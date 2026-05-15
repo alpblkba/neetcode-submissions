@@ -1,0 +1,74 @@
+# macos
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# editor / ide
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# build outputs
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# compiled binaries
+*.out
+*.exe
+*.app
+*.dSYM/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# c/c++ generated files
+*.ii
+*.s
+*.gcno
+*.gcda
+*.gcov
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# debug / sanitizer / profiling
+*.log
+*.profraw
+*.profdata
+vgcore.*
+core
+core.*
+
+# local scratch files
+scratch.cpp
+scratch.c
+test.cpp
+test.c
+main.cpp
+input.txt
+output.txt
+tmp/
+temp/
+
+# python helper scripts cache, if any
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# environment files
+.env
+.env.*
